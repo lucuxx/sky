@@ -4,7 +4,7 @@ export default  {
       placeholder: "请输入"
     },
     home: {
-      name: 'DAN',
+      name: 'SKY',
       content1: {
         title1: '智慧办公人脸通行解决方案'
       }

@@ -3,6 +3,11 @@
 // 注： 此处为全局样式
 
 .main-header{
+  // position: sticky;
+  // top:0;
+  // z-index: 9999;
+  // background: #fff;
+  
   .navbar-light .navbar-nav .nav-link{
     color: $menu-text;
   }
@@ -68,13 +73,20 @@
     }
   }
   .main-header{
+  
     .dropdown{
-      &:hover{
-        .hover-menu{
-          display: block;
-        }
-      }
+      // &:hover{
+      //   .hover-menu{
+      //     display: block;
+          
+      //   }
+
+      // }
     }
+  }
+
+  .dropdown-menu{
+    top: 45px;
   }
   @media (min-width: 768.9px) {
     .sample-menu{

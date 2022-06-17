@@ -9,4 +9,7 @@ $(document).ready(_ => {
     let ele = $(i)
     ele.removeClass(ele.attr('m-remove'))
   }
+
+
+ 
 })
